@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nome-cidade {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#temperatura {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#descricao {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+#umidade {
+    font-size: 16px;
+    color: #777;
+}
+
+.weather-icon img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+}
